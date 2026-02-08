@@ -1,0 +1,30 @@
+{
+  "profile": {
+    "image": "https://res.cloudinary.com/dduqhj5oh/image/upload/v1770558829/img_fjmfar.jpg",
+    "name": "Faith Jebet",
+    "role": "AI & Software Engineer"
+  },
+  "projects": [
+    {
+      "title": "Resume Analyzer",
+      "description": "A Resume analyzer that views resumes, parse, and matches them with job descriptions.",
+      "tech": ["Python", "PyTorch", "React"],
+      "link": "https://github.com/Faith-jebet/Agent.git",
+      "github": "https://github.com/Faith-jebet/Agent.git"
+    },
+    {
+      "title": "E-Commerce Platform",
+      "description": "Modern full-stack e-commerce solution with blue-themed UI and seamless checkout.",
+      "tech": ["React.js", "Tailwind CSS", "Node.js"],
+      "link": "https://timely-gaufre-f33a59.netlify.app",
+      "github": "https://github.com/Faith-jebet/ecommerce-platform"
+    },
+    {
+      "title": "Hortiscope",
+      "description": "Hortiscope is a web application that blends scientific rigor with creative innovation to deliver tailored solutions for sustainable land management.",
+      "tech": ["React.js", "Tailwind CSS"],
+      "link": "https://hortiscope.vercel.app",
+      "github": "https://github.com/Faith-jebet/hortiscope.git"
+    }
+  ]
+}
