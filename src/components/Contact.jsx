@@ -37,15 +37,15 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-24 bg-slate-900/30">
+    <section id="contact" className="py-16 bg-slate-900/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Get In <span className="text-gradient">Touch</span></h2>
-        <p className="text-slate-400 mb-12 max-w-xl mx-auto">
+        <p className="text-slate-400 mb-8 max-w-xl mx-auto">
           I'm always open to new opportunities and collaborations. 
           Feel free to reach out to me on any of these platforms!
         </p>
 
-        <div className="flex flex-wrap justify-center gap-8 mb-16">
+        <div className="flex flex-wrap justify-center gap-8 mb-10">
           {socials.map((social) => (
             <motion.a
               key={social.name}
@@ -61,15 +61,56 @@ const Contact = () => {
           ))}
         </div>
 
-        <div className="bg-slate-800/40 p-8 rounded-3xl border border-white/5 max-w-2xl mx-auto">
-          <h3 className="text-xl font-bold mb-4">Send a direct message</h3>
-          <a
-            href="mailto:faithjebet@example.com"
-            className="inline-flex items-center gap-3 text-2xl font-semibold text-sky-400 hover:text-sky-300 transition-colors"
+        <div className="bg-slate-800/40 p-10 rounded-3xl border border-white/5 max-w-2xl mx-auto backdrop-blur-sm">
+          <h3 className="text-2xl font-bold mb-6 text-white text-left">Send a Message</h3>
+          
+          <form 
+            action="https://formspree.io/f/mqedazly" 
+            method="POST"
+            className="space-y-6 text-left"
           >
-            <Mail size={28} />
-            faithjebet@example.com
-          </a>
+            <div>
+              <label htmlFor="email" className="block text-sm font-medium text-slate-200 mb-2">
+                Your Email
+              </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="email@example.com"
+                className="w-full px-4 py-3 rounded-xl bg-slate-900/50 border border-white/10 text-white placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-sky-500/50 transition-all"
+              />
+            </div>
+
+            <div>
+              <label htmlFor="message" className="block text-sm font-medium text-slate-200 mb-2">
+                Your Message
+              </label>
+              <textarea
+                name="message"
+                id="message"
+                required
+                rows="4"
+                placeholder="How can I help you?"
+                className="w-full px-4 py-3 rounded-xl bg-slate-900/50 border border-white/10 text-white placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-sky-500/50 transition-all resize-none"
+              ></textarea>
+            </div>
+
+            <motion.button
+              type="submit"
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              className="w-full py-4 rounded-xl bg-gradient-to-r from-sky-500 to-blue-600 text-white font-bold text-lg shadow-lg shadow-sky-500/20 hover:shadow-sky-500/40 transition-all"
+            >
+              Send Message
+            </motion.button>
+
+            <div className="pt-6 border-t border-white/5 flex items-center justify-center gap-2 text-slate-500">
+              <Mail size={16} />
+              <span className="text-sm">Or email directly at faithjebetkiprono@gmail.com</span>
+            </div>
+          </form>
         </div>
       </div>
     </section>

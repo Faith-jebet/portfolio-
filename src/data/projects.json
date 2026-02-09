@@ -14,6 +14,7 @@
     },
     {
       "title": "E-Commerce Platform",
+      "image": "https://res.cloudinary.com/dduqhj5oh/image/upload/v1770578013/Screenshot_198_fvogqd.png",
       "description": "Modern full-stack e-commerce solution with blue-themed UI and seamless checkout.",
       "tech": ["React.js", "Tailwind CSS", "Node.js"],
       "link": "https://timely-gaufre-f33a59.netlify.app",
@@ -21,6 +22,7 @@
     },
     {
       "title": "Hortiscope",
+      "image": "https://res.cloudinary.com/dduqhj5oh/image/upload/v1770577959/Screenshot_196_fm7ipb.png",
       "description": "Hortiscope is a web application that blends scientific rigor with creative innovation to deliver tailored solutions for sustainable land management.",
       "tech": ["React.js", "Tailwind CSS"],
       "link": "https://hortiscope.vercel.app",

@@ -7,7 +7,7 @@ const Hero = () => {
   const { profile } = projectsData;
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden">
+    <section id="hero" className="min-h-[90vh] flex items-center justify-center pt-20 relative overflow-hidden">
       {/* Background Blobs */}
       <div className="absolute top-1/4 -left-20 w-72 h-72 bg-sky-500/20 rounded-full blur-[100px] animate-pulse" />
       <div className="absolute bottom-1/4 -right-20 w-72 h-72 bg-cyan-500/20 rounded-full blur-[100px] animate-pulse" />

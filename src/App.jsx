@@ -16,7 +16,7 @@ function App() {
         <Contact />
       </main>
       <footer className="py-8 text-center text-slate-500 border-t border-white/5 bg-slate-950">
-        <p>© {new Date().getFullYear()} Faith Jebet. Built with React & Tailwind CSS.</p>
+        <p>© {new Date().getFullYear()} Faith Jebet. 🎃.</p>
       </footer>
     </div>
   );

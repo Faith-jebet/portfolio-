@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <span className="text-2xl font-bold text-gradient font-sans tracking-tight">
-              FJ.
+              FJ🎃
             </span>
           </div>
           
