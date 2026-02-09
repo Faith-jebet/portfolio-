@@ -9,7 +9,7 @@
       "title": "Resume Analyzer",
       "image": "https://res.cloudinary.com/dduqhj5oh/image/upload/v1770621466/WhatsApp_Image_2026-02-09_at_10.14.14_AM_p8uzc0.jpg",
       "description": "A Resume analyzer that views resumes, parse, and matches them with job descriptions.",
-      "tech": ["Python", "PyTorch", "React"],
+      "tech": ["Python", "ADK", "React"],
       "link": "https://github.com/Faith-jebet/Agent.git",
       "github": "https://github.com/Faith-jebet/Agent.git"
     },

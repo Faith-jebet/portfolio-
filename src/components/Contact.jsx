@@ -53,7 +53,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ y: -5 }}
-              className={`p-4 rounded-2xl bg-slate-800/50 border border-white/5 transition-colors ${social.color}`}
+              className={`p-4 rounded-2xl bg-slate-800/50 border border-white/5 transition-colors flex flex-col items-center min-w-[100px] ${social.color}`}
             >
               {social.icon}
               <span className="block mt-2 text-xs font-medium text-slate-400">{social.name}</span>
