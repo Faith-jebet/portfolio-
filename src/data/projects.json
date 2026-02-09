@@ -7,6 +7,7 @@
   "projects": [
     {
       "title": "Resume Analyzer",
+      "image": "https://res.cloudinary.com/dduqhj5oh/image/upload/v1770621466/WhatsApp_Image_2026-02-09_at_10.14.14_AM_p8uzc0.jpg",
       "description": "A Resume analyzer that views resumes, parse, and matches them with job descriptions.",
       "tech": ["Python", "PyTorch", "React"],
       "link": "https://github.com/Faith-jebet/Agent.git",
@@ -14,7 +15,7 @@
     },
     {
       "title": "E-Commerce Platform",
-      "image": "https://res.cloudinary.com/dduqhj5oh/image/upload/v1770578013/Screenshot_198_fvogqd.png",
+      "image": "https://res.cloudinary.com/dduqhj5oh/image/upload/v1770621488/Screenshot_200_joptdq.png",
       "description": "Modern full-stack e-commerce solution with blue-themed UI and seamless checkout.",
       "tech": ["React.js", "Tailwind CSS", "Node.js"],
       "link": "https://timely-gaufre-f33a59.netlify.app",
@@ -22,7 +23,7 @@
     },
     {
       "title": "Hortiscope",
-      "image": "https://res.cloudinary.com/dduqhj5oh/image/upload/v1770577959/Screenshot_196_fm7ipb.png",
+      "image": "https://res.cloudinary.com/dduqhj5oh/image/upload/v1770621484/Screenshot_202_usthcp.png",
       "description": "Hortiscope is a web application that blends scientific rigor with creative innovation to deliver tailored solutions for sustainable land management.",
       "tech": ["React.js", "Tailwind CSS"],
       "link": "https://hortiscope.vercel.app",
